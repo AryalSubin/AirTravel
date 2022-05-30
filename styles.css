@@ -319,7 +319,8 @@ img {
     grid-column: span 2;
   }
   .footer .left-menu,
-  .right-menu li {
-    font-size: 0.8rem;
+  .right-menu {
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
